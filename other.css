@@ -1,0 +1,327 @@
+.top{
+	position: relative;
+}
+.banner{
+	width: 1348px;
+	height: 250px;
+}
+.logopic{
+	position: absolute;
+	top: 30px;
+	left: 120px;
+}
+.logopic img{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+
+}
+.logo{
+	font-size: 50px;
+	font-family: STXingkai;
+	position: absolute;
+	top: 30px;
+	left: 180px;
+}
+.search{
+	position: absolute;
+	top: 30px;
+	right: 300px;
+	width: 200px;
+	padding: 9px;
+	border: 1px solid;
+	background-color: rgba(255,255,255,0.4);
+}
+.submit{
+	width: 50px;
+	height: 35px;
+	position: absolute;
+	top: 30px;
+	right: 250px;
+}
+.sou{
+	position: absolute;
+	top: 37px;
+	right: 260px;
+	font-size: 15px;
+	color: grey;
+}
+.top ul{
+	position: absolute;
+	top: 160px;
+	left: 120px;
+}
+.top ul li{
+	font-size: 20px;
+	border:1px black;
+	display: inline-block;
+	width: 100px;
+	margin-right: 100px;
+	float: left;
+	font-weight: bold;
+}
+.top ul a:hover{
+	display: inline-block;
+	color: white;
+	background-color: purple;
+}
+.decorate{
+	position: absolute;
+	top: 250px;
+	right: 0;
+	width: 270px;
+	height: 1270px;
+	background-image: url(img/decorate.png);
+	background-repeat: repeat-y;
+}
+.login{
+	float: right;
+	position: fixed;
+	left: auto;
+	right: 1px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	width: 270px;
+	height: 230px;
+	background-color: #E6E6FA;
+}
+.login a{
+	font-size: 15px;
+	position: absolute;
+	bottom: 20px;
+	left: 70px;
+	color: grey;
+}
+.phone{
+	width: 200px;
+	height: 30px;
+}
+.sub{
+	color: white;
+	width: 200px;
+	height: 25px;
+	position: absolute;
+	top: 180px;
+	left: 35px;
+	border: 0;
+	background-color: #0D0;
+}
+.mei{
+	float: left;
+	text-indent: 1em;
+	position: relative;
+	top: 20px;
+	width: 520px;
+	height: 50px;
+	font-size: 25px;
+	color: #8B0000;
+	border-bottom: 2px #8B0000 solid;
+}
+.list1{
+	padding-top: 20px;
+	position: relative;
+	top: 20px;
+	width: 520px;
+	height: 280px;
+}
+.list1 ul li a{
+	text-indent: 1.5em;
+	display: inline-block;
+	width: 520px;
+	height: 30px;
+	padding-top: 10px;
+	border-bottom: 1px grey dotted;
+}
+.list1 ul li a:hover{
+	text-decoration: underline;
+}
+.ming{
+	text-indent: 1em;
+	position: absolute;
+	top: 274px;
+	left: 580px;
+	width: 450px;
+	height: 50px;
+	font-size: 25px;
+	color: #8B0000;
+	border-bottom: 2px #8B0000 solid;
+}
+.mingjia{
+	position: absolute;
+	top: 324px;
+	left: 580px;
+	width: 450px;
+	height: 250px;
+}
+.mingjia img{
+	position: absolute;
+	top: 20px;
+	width: 330px;
+	height: 230px;
+}
+.content{
+	color: grey;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 110px;
+	height: 200px;
+	line-height: 1.6em;
+	padding-left: 20px;
+}
+.content:hover{
+	text-decoration: underline;
+}
+.writer{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	width: 290px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.writer:hover{
+	text-decoration: underline;
+}
+.shikan{
+	position: absolute;
+	left: 20px;
+	top: 600px;
+}
+.shikan img{
+	width: 1030px;
+	height: 100px;
+}
+.shiren{
+	text-indent: 1em;
+	font-size: 25px;
+	color: #9932CC;
+	position: absolute;
+	top: 730px;
+}
+.zhuanlan{
+	position: absolute;
+	top: 760px;
+	left: 10px;
+	width: 1060px;
+	height: 340px;
+}
+.box{
+	float: left;
+	width: 245px;
+	height: 320px;
+	padding: 10px;
+	position: relative;
+}
+.box img{
+	display: inline-block;
+	float: left;
+	width: 235px;
+	height: 320px;
+}
+.introduce{
+	font-size: 14px;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	bottom: 10px;
+	width: 235px;
+	height: 120px;
+}
+.box a{
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 25px;
+	width: 190px;
+	height: 100px;
+	font-size: 23px;
+	font-family: STKaiti;
+}
+.box a:hover{
+	font-weight: bold;
+}
+.lianpu{
+	text-indent: 1em;
+	position: absolute;
+	top: 1120px;
+	width: 1000px;
+	height: 50px;
+	font-size: 25px;
+	color: #8B0000;
+	border-bottom: 2px #8B0000 solid;
+}
+.shifeng{
+	position: absolute;
+	top: 1180px;
+	width: 1060px;
+	height: 340px;
+}
+.column{
+	float: left;
+	width: 320px;
+	height: 300px;
+}
+.column img{
+	width: 320px;
+	height: 300px;
+}
+.left{
+	width: 40px;
+	height: 180px;
+	font-size: 35px;
+	font-family: STLiti;
+	position: absolute;
+	top: 85px;
+	padding-left: 40px;
+}
+.right{
+	width: 150px;
+	height: 260px;
+	position: absolute;
+	top: 66px;
+	padding-left: 100px;
+	font-size: 17px;
+	line-height: 1.5em;
+}
+.right ul li a:hover{
+	color: black;
+}
+.banquan{
+	background-color: rgba(0,0,0,0.8);
+	width: 1348px;
+	height: 150px;
+	position: absolute;
+	top: 1500px;
+}
+.xinxi{
+	color: rgb(255,255,255,1);
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	font-size: 20px;
+}
+.juti{
+	width: 350px;
+	color: rgb(255,255,255,1);
+	position: absolute;
+	left: 100px;
+	top: 70px;
+	font-size: 13px;
+}
+.guanyu{
+	color: rgb(255,255,255,1);
+	position: absolute;
+	top: 20px;
+	left: 800px;
+	font-size: 20px;
+}
+.dizhi{
+	position: absolute;
+	top: 70px;
+	left: 800px;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
